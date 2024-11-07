@@ -1,0 +1,70 @@
+Claro! Abaixo está um exemplo de um catálogo de vídeos sobre Fórmula 1 em HTML, utilizando os links do YouTube que você forneceu. Você pode copiar e colar este código em um arquivo com extensão `.html` e abri-lo em um navegador para visualizar o catálogo.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos - Fórmula 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #e60000;
+        }
+        .video {
+            background: white;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+        }
+        .video h2 {
+            color: #333;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Catálogo de Vídeos - Fórmula 1</h1>
+
+<div class="video">
+    <h2>Vídeo 1: Lançamento e Estreia da Temporada</h2>
+    <iframe src="https://www.youtube.com/embed/j05SZxcOsao" frameborder="0" allowfullscreen></iframe>
+    <p>Descrição: Neste vídeo, acompanhamos o lançamento e a estreia da temporada da Fórmula 1, com todas as emoções das corridas.</p>
+</div>
+
+<div class="video">
+    <h2>Vídeo 2: Melhores Momentos da Temporada</h2>
+    <iframe src="https://www.youtube.com/embed/hywBZsxpEPM" frameborder="0" allowfullscreen></iframe>
+    <p>Descrição: Veja os melhores momentos da temporada da Fórmula 1, com as melhores ultrapassagens e disputas emocionantes.</p>
+</div>
+
+</body>
+</html>
+```
+
+### Como funciona o código:
+- O código cria uma página HTML básica com um título e duas seções para vídeos.
+- Cada seção contém um título, um iframe para o vídeo do YouTube e uma descrição do que cada vídeo apresenta.
+- O CSS aplicado proporciona um estilo simples e agradável para o catálogo.
+
+### Instruções:
+1. Copie o código acima.
+2. Abra um editor de texto (como Notepad, Visual Studio Code ou outro de sua preferência).
+3. Cole o código no editor.
+4. Salve o arquivo como `catalogo_formula1.html`.
+5. Abra o arquivo em um navegador da web para visualizar o catálogo de vídeos sobre Fórmula 1. 
+
+Divirta-se assistindo! 🚗💨
